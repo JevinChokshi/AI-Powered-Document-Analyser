@@ -1,6 +1,7 @@
 import streamlit as st
 import pdfplumber
 import io
+import re
 import json
 import google.genai as genai
 from google.genai import types
@@ -200,8 +201,6 @@ if st.session_state.structured_data:
                     st.exception(exc)
 
 # ------------------- Display n8n Results -------------------
-import re
-
 if st.session_state.webhook_result:
     result = st.session_state.webhook_result  # Already dict
     
