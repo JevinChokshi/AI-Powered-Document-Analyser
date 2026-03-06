@@ -9,7 +9,7 @@ from typing import Any
 import requests
 
 # ------------------- Page Setup -------------------
-st.set_page_config(page_title="AI Powered Document Orchestrator", layout="wide")
+st.set_page_config(page_title="AI Powered Document Analyzer", layout="wide")
 st.title("AI Powered Document Orchestrator")
 st.caption("Upload a PDF or TXT document to extract content and perform operations.")
 
